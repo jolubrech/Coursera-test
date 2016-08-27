@@ -1,0 +1,90 @@
+body{
+    
+}
+
+.navbar-header{
+    margin-bottom: 20px;
+}
+
+.navbar-default{
+    background-color:  #31b0d5;    
+}
+.navbar-header button{
+    margin-bottom: 0px;
+    margin-right: 30px;
+    margin-top: 40px;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.navbar-header .icon-bar{
+    height: 5px;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+}
+.navbar-brand h1{
+    margin-left: 25px;    
+    color: white;
+    text-shadow: 5px 5px 5px #888888;
+    font-family: 'Acme', sans-serif;
+    font-size: 2em;
+    
+}
+.navbar-nav>li>a {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#nav-list li>a{
+    font-size: 1.8em;
+    font-weight: 900;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px #888888;
+}
+
+h2{
+    font-weight: 900;
+    font-family: 'Acme', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#main-content-title{
+    margin-top: 0;
+    margin-bottom: 15px;    
+    font-family: 'Acme', sans-serif;
+    font-size: .7em;
+}
+#main-content-title span{
+    font-size: 1.8em;    
+}
+#lorem-text {
+    padding: 25px;
+    background-color: blueviolet;
+    width: 78%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px #888888;
+    font-size: 1.5em;
+    
+}
+
+
+@media (min-width: 768px) {
+  .navbar-header{
+    margin-bottom: 50px;
+  }
+  .container{
+    width: 98%;  
+  }
+  
+  #lorem-text{
+      width: 100%;
+  }
+}
